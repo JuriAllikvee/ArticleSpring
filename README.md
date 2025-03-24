@@ -31,6 +31,7 @@ ArticlesApplication - Главный класс запуска Spring Boot
 ## База данных
 ER-диаграмма (основные сущности):
 ![image](https://github.com/user-attachments/assets/8ffcf10a-c014-4c90-ad85-c1f9fe7a70c9)
+
 -- Создание базы данных
 
 ```bash
