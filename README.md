@@ -3,11 +3,17 @@
 
 ## Структура проекта
 config-Конфигурации Spring Security, инициализация данных
+
 controllers - Контроллеры для обработки HTTP-запросов
+
 entity - JPA-сущности: классы, представляющие таблицы в БД
+
 repository - Интерфейсы Spring Data JPA для работы с БД
+
 service - Интерфейсы бизнес-логики для сервисов
+
 serviceImpl - Реализация сервисов
+
 ArticlesApplication - Главный класс запуска Spring Boot
 
 ## Как запустить проект
