@@ -31,6 +31,28 @@ ArticlesApplication - Главный класс запуска Spring Boot
 ## База данных
 ER-диаграмма (основные сущности):
 ![image](https://github.com/user-attachments/assets/8ffcf10a-c014-4c90-ad85-c1f9fe7a70c9)
+-- Создание базы данных
+
+```bash
+mysql -u root -p
+```
+
+```bash
+CREATE DATABASE IF NOT EXISTS articles2 CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+```
+
+```bash
+CREATE USER IF NOT EXISTS 'articles2test'@'localhost' IDENTIFIED BY 'articles2test';
+```
+
+```bash
+GRANT ALL PRIVILEGES ON articles2.* TO 'articles2test'@'localhost';
+```
+
+```bash
+FLUSH PRIVILEGES;
+```
+
 
 ## Функциональность 
 
