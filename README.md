@@ -3,6 +3,7 @@
 
 ## Структура проекта
 ![image](https://github.com/user-attachments/assets/935fc45f-d4bf-4628-a4d7-033cc73369a9)
+
 config-Конфигурации Spring Security, инициализация данных
 
 controllers - Контроллеры для обработки HTTP-запросов
